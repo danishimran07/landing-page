@@ -522,6 +522,10 @@ input{
             gap: 20px;
         }
         /* section 3 */
+        .section3{
+            height: fit-content;
+        }
+
         .about{
             max-width: 350px;
             flex-direction: column;
