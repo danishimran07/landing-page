@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Section 1 intro and logo */
+
+.section1{
+    background-image: url(./images/Header.back.jpg);
+    height: 60rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.section1 > div {
+    height: 100%;
+    color: white;
+    max-width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro {
+    display: flex;
+    position: relative;
+    top: 50px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.section1 >div >div h1{
+    color: white;
+    text-align: left;
+    line-height: 4.25rem;
+    font-size: 3.5294rem;
+}
+
+.section1 > div >div h2{
+    text-align: left;
+    line-height: 2.625rem;
+    font-size: 1.8576rem;
+    word-wrap: break-word;
+}
+
+.logo{
+    width: 285px;
+    height: 81px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.line{
+    height: 1.4375rem;
+    width: 10.5625rem;
+   border-bottom: 3px solid #FFFFFF;
+}
+
+.enquire{
+    display: flex;
+    position: relative;
+    right: 40px;
+    bottom: 60px;
+    gap: 30px;
+    font-size: 1.7337rem;
+}
+
+.enquire a {
+    text-decoration: none;
+    color: white;
+}
+
+.trends{
+    height: 2.625rem;
+    width: 2.625rem;
+}
+
+.trends img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Section 2 pricing and amenities */
+
+.pricing{
+    max-width: 60rem;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.range{
+    display: flex ;
+    justify-content: space-between;
+    gap: 80px;
+    margin: 20px 0;
+    
+}
+
+.range div{
+    min-width: 30%;
+}
+
+.range h1{
+    display: flex;
+    flex-direction: column;
+    color: #bf8c1c;
+    text-align: left;
+    line-height: 3.0625rem;
+    font-size: 2.5387rem;
+}
+
+.range p{
+    color: #000000;
+    text-align: left;
+    line-height: 1.625rem;
+    font-size: 0.9907rem;
+    font-weight: 300;
+}
+
+.features{
+    margin: 20px 0;
+}
+
+.features h1{
+    text-align: left;
+    line-height: 3.125rem;
+    font-size: 2.584rem;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.features li{
+    line-height: 1.625rem;
+    font-size: 1.0084rem;
+    font-weight: 300;
+    color: #37465A;
+}
+
+.features span{
+    color: #000000;
+}
+
+.amenities{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.amenities h1{
+    text-align: left;
+    font-size: 1.7337rem;
+}
+
+.amenities div {
+    max-width: 40%;
+}
+
+/* Section 3 about us  */
+
+.section3{
+    height: 57.9375rem;
+    max-width: 100%;
+    background: rgb(0,0,0);
+}
+
+.about{
+    display: flex;
+    justify-content:right;
+    gap: 50px;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 80px 0px;
+
+}
+
+.request{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.request .trends{
+    position: relative;
+    bottom: 250px;
+    height: 7.9375rem;
+    width: 7.9375rem;
+}
+
+.trends img{
+    width: 100%;
+    height: 100%;
+}
+
+.about >div >div h1{
+    color: white;
+    text-align: right;
+
+}
+
+.about p{
+    color: white;
+}
+
+.circle{
+    width: 25rem;
+    height: 25rem;
+    background: url(./images/bedroom.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    border-radius: 50%;
+    position: relative;
+    top: -150px;
+    left: -50px;
+    z-index: 0;
+    
+
+}
+
+.discription{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 50px;
+}
+
+.discription p{
+    text-align: left;
+    line-height: 1.625rem;
+    font-size: 0.9907rem;
+}
+
+
+/* Section 4 Gallery Section */
+
+.gallery{
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.gallery h1{
+    margin: 50px 0;
+}
+
+.gallery >div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+}
+
+.raw1, .raw2, .raw3{
+    display: flex;
+    gap: 10px;
+}
+
+.raw2-side{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Section 5 pallarax  */
+
+.section5{
+    min-height: 100vh;
+    background: url(./images/paller.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* section 6 location and landmark */
+
+.section6{
+    background-color: black;
+}
+
+.location{
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    gap: 50px;
+}
+
+.landmark > p{
+    color: white;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.map h1{
+    color: white;
+    text-align: right;
+    line-height: 4.5625rem;
+    font-size: 3.7771rem;
+    margin-bottom: 20px;
+}
+
+.map, .landmark{
+    width: 40%;
+}
+
+.landmark p{
+    text-align: left;
+    line-height: 1.625rem;
+    font-size: 0.9907rem;
+}
+
+.landmark h1{
+    color: #BF8C1C;
+    line-height: 3.3125rem;
+    font-size: 2.7245rem;
+    margin: 20px 0;
+}
+
+.landmark-p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.landmark-p h1{
+    color: #BF8C1C;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.75rem;
+    font-size: 1.7337rem;
+    margin: 0;
+    
+}
+
+.landmark-p p{
+    font-weight: 300;
+    color: #BF8C1C;
+    text-align: left;
+    line-height: 1.625rem;
+    font-size: 0.9907rem;
+}
+
+.landmark-p div{
+    margin: 20px 0;
+}
+
+.iframe{
+    width: 470px;
+    height: 470px;
+}
+
+.iframe img {
+    width: 100%;
+    height: 100%;
+}
+
+.heading h1{
+    position: relative;
+    text-align: right;
+    line-height: 4.5625rem;
+    font-size: 3.7771rem;
+    z-index: 99;
+}
+
+.bot-head h1{
+    word-wrap: break-word;
+    line-height: 4.5625rem;
+    font-size: 3.3771rem;
+    text-align: right;
+    color: #BF8C1C!important;
+   
+}
+
+/* section 7  contact form */
+
+
+.contact{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.contact p{
+    color: #37465A;
+    text-align: center;
+    line-height: 1.625rem;
+    font-size: 0.9907rem;
+    margin-top: 50px;
+}
+
+.contact h1{
+    font-weight: 400;
+    color: #37465A;
+    text-align: center;
+    line-height: 2.6875rem;
+    font-size: 2.2291rem;
+}
+
+form{
+    width: 32.4375rem;
+    font-weight: 400;
+    font-size: 0.8125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.form-select{
+    width: 100%;
+    height: 2.4rem!important;
+    align-self: self-start;
+    border: none;
+    border-bottom: 1px solid #3893fe;
+    color: #000!important;
+    border-radius: 0;
+    font-size: .875rem;
+    background-color: transparent!important;
+    
+}
+
+input{
+    width: 100%;
+    height: 2.4rem!important;
+    border: none;
+    border-bottom: 1px solid #3893fe;
+    color: #000!important;
+    border-radius: 0;
+    font-size: .875rem;
+    background-color: transparent!important;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.625rem 0.5625rem;
+}
+
+.form-button button{
+    background: #41C4F2;
+    color: #FFFFFF;
+    font-size: 1.2384rem;
+    font-family: Vollkorn;
+    font-weight: 700;
+    height: 3.1875rem;
+    width: 20.9375rem;
+    border-radius: 27px;
+    border: none;
+    margin-top: 50px;
+}
+
+/* section 8 footer */
+
+.section8{
+    background-color: #000000;
+    padding: 30px 0;
+}
+
+.footer{
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.footer P{
+    color: white;
+    text-align: center;
+    line-height: 1.125rem;
+    font-size: 0.8192rem;
+}
+
+
+
+    @media screen and (max-width: 767px)
+    {
+        /* section 1*/
+
+        .section1{
+            background: url(./images/Header.back.jpg) repeat 59% 43% / cover;
+            height: 52.75rem;;
+        }
+
+        .section1 > div{
+            max-width: 400px;
+        }
+
+        .intro{
+            flex-direction: column;
+            flex-flow: column-reverse;
+            gap: 20px;
+        }
+
+        .enquire{
+            flex-direction: column;
+            gap: 0px;
+            position: static;
+            margin-bottom: 10px;
+        }
+
+        /* section 2 */
+
+        .pricing{
+            max-width: 400px;
+        }
+
+        .range{
+            flex-direction: column;
+            gap: 20px;
+        }
+        /* section 3 */
+        .about{
+            max-width: 400px;
+            flex-direction: column;
+        }
+
+        /* section 4*/
+
+        .gallery{
+            max-width: 400px;
+        }
+
+        .raw1, .raw2, .raw3{
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /*section 5*/
+
+        .section5{
+            display: none;
+        }
+
+        /* section 6 */
+
+        .location{
+            max-width: 400px;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .map, .landmark{
+            width: 100%;
+            align-items: start;
+        }
+
+        /* section 7*/
+
+        .contact{
+            max-width: 400px;
+
+        }
+
+        form{
+            width: 20rem;
+        }
+
+        /*footer*/
+
+        .footer{
+            max-width: 400px;
+        }
+    }
+
+    @media only screen and (max-width: 600px){
+        .iframe{
+            width: 350px;
+            height: 350px;
+        }
+    }
