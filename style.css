@@ -495,7 +495,7 @@ input{
         }
 
         .section1 > div{
-            max-width: 400px;
+            max-width: 350px;
         }
 
         .intro{
@@ -514,7 +514,7 @@ input{
         /* section 2 */
 
         .pricing{
-            max-width: 400px;
+            max-width: 350px;
         }
 
         .range{
@@ -523,14 +523,14 @@ input{
         }
         /* section 3 */
         .about{
-            max-width: 400px;
+            max-width: 350px;
             flex-direction: column;
         }
 
         /* section 4*/
 
         .gallery{
-            max-width: 400px;
+            max-width: 350px;
         }
 
         .raw1, .raw2, .raw3{
@@ -547,7 +547,7 @@ input{
         /* section 6 */
 
         .location{
-            max-width: 400px;
+            max-width: 350px;
             flex-direction: column;
             gap: 20px;
         }
@@ -559,7 +559,7 @@ input{
         /* section 7*/
 
         .contact{
-            max-width: 400px;
+            max-width: 350px;
 
         }
 
@@ -570,13 +570,13 @@ input{
         /*footer*/
 
         .footer{
-            max-width: 400px;
+            max-width: 350px;
         }
     }
 
     @media only screen and (max-width: 600px){
         .iframe{
-            width: 350px;
-            height: 350px;
+            width: 320px;
+            height: 320px;
         }
     }
