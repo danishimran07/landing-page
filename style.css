@@ -36,7 +36,7 @@
     height: 60px;
     border-radius: 50%;
     position: fixed;
-    left: 40px;
+    right: 40px;
     bottom: 40px;
     padding: 5px;
     box-shadow: rgb(0 0 0 / 20%) 0px 0px 0.428571rem 0px ;
