@@ -511,7 +511,7 @@ input{
             background-size: cover;
             background-repeat: repeat;
             background-position: 59% 43%;
-            height: 52.75rem;;
+            height:100vh;
         }
 
         .section1 > div{
@@ -531,8 +531,10 @@ input{
         .intro{
             flex-direction: column;
             flex-flow: column-reverse;
-            gap: 50px;
+            gap: 80px;
             margin-top: 10px;
+            text-shadow: 1px 1px 1px #000;
+
         }
 
         .logo{
@@ -545,6 +547,8 @@ input{
             gap: 0px;
             position: static;
             margin-bottom: 80px;
+            text-shadow: 1px 1px 1px #000;
+
         }
 
         /* section 2 */
