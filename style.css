@@ -531,7 +531,8 @@ input{
         .intro{
             flex-direction: column;
             flex-flow: column-reverse;
-            gap: 20px;
+            gap: 50px;
+            margin-top: 10px;
         }
 
         .logo{
@@ -543,7 +544,7 @@ input{
             flex-direction: column;
             gap: 0px;
             position: static;
-            margin-bottom: 50px;
+            margin-bottom: 80px;
         }
 
         /* section 2 */
