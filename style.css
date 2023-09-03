@@ -37,7 +37,7 @@
     border-radius: 50%;
     position: fixed;
     right: 40px;
-    bottom: 40px;
+    bottom: 60px;
     padding: 5px;
     box-shadow: rgb(0 0 0 / 20%) 0px 0px 0.428571rem 0px ;
 }
@@ -572,6 +572,10 @@ input{
             margin-bottom: 100px;
             text-shadow: 1px 1px 1px #000;
 
+        }
+
+        .whatsapp {
+            right: 30px;
         }
 
         /* section 2 */
